@@ -1,5 +1,5 @@
 <template>
-  <h3>{{ normalizedCounter }}</h3>
+  <h3>Normalized: {{ normalizedCounter }}</h3>
   <p>we do more here...</p>
 </template>
 
