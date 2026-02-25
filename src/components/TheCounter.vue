@@ -8,7 +8,7 @@ import { mapGetters } from "vuex";
 
 export default {
   computed: {
-    ...mapGetters(["counter", "finalCounter"]),
+    ...mapGetters("numbers", ["counter", "finalCounter"]),
     // counter() {
     //   return this.$store.state.numbers.counter;
     // },
